@@ -75,8 +75,8 @@ li {
 
 #services {
   margin-bottom: 60px;
-  /*I added this h1 styling*/ }
-  @media screen and (max-width: 1500px) and (min-width: 900px) {
+  /*I added this h1 styling to give h2 bigger font(30px) from 900px and up*/ }
+  @media screen and (max-width: 1600px) and (min-width: 900px) {
     #services .wrapper h1 {
       font-size: 30px; } }
   #services li {

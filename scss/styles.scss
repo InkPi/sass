@@ -19,10 +19,10 @@
 #services {
   margin-bottom: 60px;
 
-  /*I added this h1 styling*/
+  /*I added this h1 styling to give h2 bigger font(30px) from 900px and up*/
   .wrapper{
     h1 {
-      @include mQ(1500px, 900px){
+      @include mQ(1600px, 900px){
         font-size: 30px;
       }
     }
